@@ -1,4 +1,4 @@
-class desktop_picture (
+class mac_profiles (
     $path = '/Library/Desktop Pictures/El Capitan.jpg'
 )
 {
