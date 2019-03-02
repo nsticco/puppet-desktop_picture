@@ -5,7 +5,8 @@ class mac_profiles (
 ) 
 {
   if $desktop_manage {
-    $desktop_uuid = fqdn_uuid('com.puppetmacprofiles.desktop')
+    $desktop_top_uuid = fqdn_uuid('com.puppetmacprofiles.desktop')
+    $desktop_payload_uuid = fqdn_uuid('com.puppetmacprofiles.desktop' + 'payload')
     mac_profiles_handler::manage { 'com.puppetmacprofiles.desktop':
       ensure      => 'present',
       file_source => template('mac_profiles/com.puppetmacprofiles.desktop.mobileconfig.erb'),
