@@ -13,6 +13,7 @@ class {'mac_profiles':
 ## Dependencies
 
 * [keeleysam/puppet-mac_profiles_handler](https://github.com/keeleysam/puppet-mac_profiles_handler)
+* [puppetlabs/stdlib >= 2.3.1](https://forge.puppetlabs.com/puppetlabs/stdlib)
 
 ## References
 <a href="https://puppet.com/docs">Puppet Docs</a>
