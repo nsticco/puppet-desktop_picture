@@ -6,7 +6,7 @@ This module will set a profile on an OS X machine to enforce the desktop picture
 
 ``` puppet
 class {'mac_profiles':
-    path => '/Library/Desktop Pictures/Snow.jpg'
+    path => '/Library/Desktop Pictures/Mt. Fuji.jpg'
 }
 ```
 
