@@ -5,16 +5,9 @@ This module will set a profile on an OS X machine to enforce the desktop picture
 ## Usage
 
 ``` puppet
-class {'desktop_picture':
-    path => '/Library/Desktop Pictures/Grass Blades.jpg'
+class {'mac_profiles':
+    path => '/Library/Desktop Pictures/Snow.jpg'
 }
-```
-
-Or to configure with Hiera:
-
-``` yaml
----
-desktop_picture::path: '/Library/Desktop Pictures/Grass Blades.jpg'
 ```
 
 ## Dependencies
