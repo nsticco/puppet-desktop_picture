@@ -3,10 +3,12 @@
 This module will set a profile on an OS X machine to enforce the desktop picture.
 
 ## Usage
+To change the desktop, specify the local path to the image file and your organization name (these are both optional parameters):
 
 ``` puppet
-class {'mac_profiles':
-    path => '/Library/Desktop Pictures/Mt. Fuji.jpg'
+class {'mac_profiles::desktop':
+    path         => '/Library/Desktop Pictures/Snow.jpg',
+    organization => 'Your Organization Name' 
 }
 ```
 
