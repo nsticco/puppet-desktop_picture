@@ -4,7 +4,7 @@ class mac_profiles (
 {
     mac_profiles_handler::manage { 'com.puppetmacprofiles.desktop':
         ensure      => 'present',
-        file_source => template('mac_profiles/com.puppetmacprofiles.config.mobileconfig.erb'),
+        file_source => template('mac_profiles/com.puppetmacprofiles.desktop.mobileconfig.erb'),
         type        => 'template',
     }
 }
