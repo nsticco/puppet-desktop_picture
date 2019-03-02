@@ -1,7 +1,3 @@
-class mac_profiles (
-  $path = '/Library/Desktop Pictures/El Capitan.jpg',
-  $organization = 'Puppet Mac Profiles',
-  $desktop_manage = false
-) {
+class mac_profiles {
   contain mac_profiles::desktop
 }
