@@ -1,5 +1,6 @@
 class mac_profiles (
-    $path = '/Library/Desktop Pictures/El Capitan.jpg'
+    $path = '/Library/Desktop Pictures/El Capitan.jpg',
+    $organization = 'Puppet Mac Profiles'
 )
 {
     mac_profiles_handler::manage { 'com.puppetmacprofiles.desktop':
