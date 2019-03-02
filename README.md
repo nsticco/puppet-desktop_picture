@@ -1,4 +1,4 @@
-# desktop_picture
+# puppet-mac_profiles
 
 This module will set a profile on an OS X machine to enforce the desktop picture.
 
