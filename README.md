@@ -1,6 +1,6 @@
 # puppet-mac_profiles
 
-This module provides an additional layer of abstraction over Configuration Profiles allowing you to adjust them simply by passing parameters to Puppet classes.
+This module provides an additional layer of abstraction over Mac Configuration Profiles allowing you to adjust them simply by passing parameters to Puppet classes.
 
 ## Usage
 To change the desktop, specify the local path to the image file and your organization name (these are both optional parameters):
