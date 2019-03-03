@@ -2,6 +2,8 @@
 
 This module provides an additional layer of abstraction over Mac Configuration Profiles allowing you to adjust them simply by passing parameters to Puppet classes.
 
+WARNING: This is an incomplete work in progress as of 3/2/19. While it shouldn't crash anything, it may have inconsistencies.
+
 ## Usage
 To change the desktop picture, specify the local path to the image file and your organization name (although these are both optional parameters):
 
